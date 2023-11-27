@@ -94,7 +94,7 @@ import com.brentvatne.common.API.Track;
 import com.brentvatne.common.API.VideoTrack;
 import com.brentvatne.common.react.VideoEventEmitter;
 import com.brentvatne.common.toolbox.DebugLog;
-import com.brentvatne.react.R;
+import com.brentvatne.reacttv.R;
 import com.brentvatne.receiver.AudioBecomingNoisyReceiver;
 import com.brentvatne.receiver.BecomingNoisyListener;
 import com.facebook.react.bridge.Dynamic;
