@@ -49,12 +49,12 @@ def configStringPath = (
 ).md5()
 
 if (isNewArchitectureEnabled()) {
-    apply plugin: "com.facebook.reacttv"
+    apply plugin: "com.facebook.react"
 }
 
 android {
     if (supportsNamespace()) {
-        namespace 'com.brentvatne.react'
+        namespace 'com.brentvatne.reacttv'
 
         sourceSets {
             main {
