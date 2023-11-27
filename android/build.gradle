@@ -49,7 +49,7 @@ def configStringPath = (
 ).md5()
 
 if (isNewArchitectureEnabled()) {
-    apply plugin: "com.facebook.react"
+    apply plugin: "com.facebook.reacttv"
 }
 
 android {
