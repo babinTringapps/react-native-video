@@ -39,7 +39,7 @@ public class FullScreenPlayerView extends Dialog {
         containerView.addView(exoPlayerView, generateDefaultLayoutParams());
 
         if (playerControlView != null) {
-            ImageButton imageButton = playerControlView.findViewById(com.brentvatne.react.R.id.exo_fullscreen);
+            ImageButton imageButton = playerControlView.findViewById(com.brentvatne.reacttv.R.id.exo_fullscreen);
             imageButton.setImageResource(androidx.media3.ui.R.drawable.exo_icon_fullscreen_exit);
             imageButton.setContentDescription(getContext().getString(androidx.media3.ui.R.string.exo_controls_fullscreen_exit_description));
             parent.removeView(playerControlView);
